@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "DeepSeek PDF Translation",
+  "version": "0.6.0",
+  "description": "Translate the text of an open PDF into Simplified Chinese in the Zotero reader.",
+  "applications": {
+    "zotero": {
+      "id": "deepseek-pdf-reader@local",
+      "update_url": "https://example.invalid/deepseek-pdf-reader/updates.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}
