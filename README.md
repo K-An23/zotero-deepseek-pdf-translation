@@ -16,6 +16,11 @@
 在仓库根目录用 PowerShell 执行以下命令，再安装生成的 XPI。渲染库及其许可文件已随源码提供。
 
 ```powershell
-Compress-Archive -LiteralPath manifest.json,bootstrap.js,vendor -DestinationPath plugin.zip -Force
+Compress-Archive -LiteralPath manifest.json,bootstrap.js,LICENSE,vendor -DestinationPath plugin.zip -Force
 Copy-Item -LiteralPath plugin.zip -Destination deepseek-pdf-reader.xpi -Force
 ```
+
+## 许可证
+
+插件原创代码采用 [PolyForm Noncommercial License 1.0.0](LICENSE)。
+随附的 KaTeX 和 markdown-it 适用各自的 MIT 许可证，全文见 vendor 目录。

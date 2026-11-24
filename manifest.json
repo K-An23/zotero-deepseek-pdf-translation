@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "DeepSeek PDF Translation",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Translate the text of an open PDF into Simplified Chinese in the Zotero reader.",
   "applications": {
     "zotero": {
